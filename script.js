@@ -1,4 +1,4 @@
-const optionsOne = ["instances of", "objects of", "balcony of", "violence of", "Us,", "Around us,", "Violent balcony of", "Unpredictable objects of", "Violent instances of", "Unpredictable instances of", "Balcony violence of", "Balcony objects of", "Scratched objects of", "restrained objects of", "restrained around", "Unpredictable restraint of", "Restrained instances of"];
+const optionsOne = ["instances of", " ", "objects of", "balcony of", "violence of", "Us,", "Around us,", "Violent balcony of", "Unpredictable objects of", "Violent instances of", "Unpredictable instances of", "Balcony violence of", "Balcony objects of", "Scratched objects of", "restrained objects of", "restrained around", "Unpredictable restraint of", "Restrained instances of"];
     let partOne = "instances of";
 const optionsTwo = ["violent", "unpredictable", "restrained", "scratched", "around", "distressed", " "];
     let partTwo = "violent";
@@ -18,7 +18,7 @@ function generateSentence() {
     const partThree = getRandom(optionsThree);
     const partFour = getRandom(optionsFour);
   
-    const sentence = `${partOne} ${partTwo} ${partTwoTwo} ${partThree} ${partFour}.`;
+    const sentence = `${partOne} ${partTwo}  ${partThree} ${partFour}.`;
     document.getElementById("output").textContent = sentence;
   }
   
